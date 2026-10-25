@@ -1,0 +1,11 @@
+[project]
+name = "arix-research-paper-recommendation-system"
+version = "0.1.0"
+description = "arXiv metadata fetcher for a research paper recommendation system"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.2",
+]
