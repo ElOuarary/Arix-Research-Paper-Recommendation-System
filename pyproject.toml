@@ -3,7 +3,18 @@ name = "arix-research-paper-recommendation-system"
 version = "0.1.0"
 description = "arXiv metadata fetcher for a research paper recommendation system"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "nbformat>=4.2.0",
+    "nltk>=3.10.4",
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "sentence-transformers>=6.2.0",
+    "umap-learn>=0.5.12",
+    "wordcloud>=1.9.6",
+]
 
 [dependency-groups]
 dev = [
