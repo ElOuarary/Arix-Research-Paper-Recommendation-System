@@ -13,6 +13,7 @@ dependencies = [
     "seaborn>=0.13.2",
     "sentence-transformers>=6.2.0",
     "umap-learn>=0.5.12",
+    "wordcloud>=1.9.6",
 ]
 
 [dependency-groups]
